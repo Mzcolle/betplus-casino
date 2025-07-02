@@ -1,0 +1,8 @@
+{
+  "name": "PHP 8.3 Full",
+  "image": "mcr.microsoft.com/devcontainers/php:8.3",
+  "features": {
+    "ghcr.io/devcontainers/features/php-composer:1": {}
+  },
+  "postCreateCommand": "php -v"
+}
